@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/demonstrate.js"></script>
+    <link rel="stylesheet" href="../css/demonstrate.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../jquery-3.6.0.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            开始演示模态框
+        </button>
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="forms">
+                            <p class="gaozi">预约演示申请</p>
+                            <div class="fege"></div>
+                            <div class="one">
+                                <p class="line">
+                                    <span class="red">*</span>
+                                     姓名
+                                </p>
+                                <p><input type="text" maxlength="8" placeholder="请输姓名"></p>
+                                <p>请输入姓名</p>
+                            </div>
+                            <div class="one">
+                                <p class="line">
+                                    <span class="red">*</span>
+                                    手机号码
+                                </p>
+                                <p><input type="text" maxlength="11" placeholder="请输入手机号码"></p>
+                                <p>请输入正确的手机号码</p>
+                            </div>
+                            <div class="one">
+                                <p class="line">
+                                    <span class="red">*</span>
+                                    验证码
+                                </p>
+                                <p class="disp"><input type="text" maxlength="11" placeholder="请输入正确的验证码" class="teshu"><button class="huoqu">获取验证码</button></p>
+                                <p>请输入验证码</p>
+                            </div>
+                            <div class="one">
+                                <p class="line">
+                                    <span class="red">*</span>
+                                    公司名称
+                                </p>
+                                <p><input type="text" maxlength="11" placeholder="请输入您的公司名称"></p>
+                                <p>请输入公司名称</p>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            立即提交
+                        </button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+          
+    </div>
+    </div>
+</body>
+</html>

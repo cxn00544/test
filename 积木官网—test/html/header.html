@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../swiper/swiper-bundle.min.js"></script>
+    <script src="../jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css">
+    
+</head>
+<body>
+    <div class="header">
+    <div class="daohang">
+        <span class="btn2">
+                <button class="glyphicon glyphicon-menu-hamburger"></button>
+          </span>
+        <span class="logo2">
+            <img src="../images/images_product/logo@2x.png" alt="">
+        </span>
+        <span></span>
+    </div>
+    <div class="subnav">
+        <ul class="subnavleft">
+            <li class="current index">
+                <i class="is"></i>
+                <a href="http://127.0.0.1:5500/index.html" class="bg">首页</a>
+               
+            </li>
+            <li class="product">
+                <i class="is"></i>
+                <a href="#"  class="bg">产品</a>
+            </li>
+            <li class="deal">
+                <i class="is"></i>
+                <a href="#"  class="bg">解决方案</a>
+            </li>
+            <li class="mine"> 
+                <i class="is"></i>
+                <a href="#"  class="bg">关于我们</a>
+            </li>
+        </ul>
+        <div class="box">
+            <ul class="rightcontainer box1">
+                <li>
+                    <img src="../images/headerimages/蒙版组 306@2x.png" width="20px" height="20px" alt="">
+                    <a href="#" class="tuan">数字化客户经营</a>
+                </li>
+                <li>
+                    <img src="../images/headerimages/蒙版组 312@2x.png" width="20px" height="20px" alt="">
+                    <a href="#" class="tuan">私域互动经营</a>
+                </li>
+                <li>
+                    <img src="../images/headerimages/蒙版组 313@2x.png" width="20px" height="20px" alt="">
+                    <a href="http://127.0.0.1:5500/html/Customerportrait.html" class="tuan">数据中台</a>
+                </li>
+            </ul>
+            <ul class="rightcontainer box2">
+                <li>     
+                    <a href="#" class="teshu">场景解决方案</a>
+                </li>
+                <li>
+                     <img src="../images/headerimages/蒙版组 440@2x.png" width="20px" height="20px" alt="">
+                    <a href="#" class="tuan">营销自动化</a>
+                </li>
+                <li>
+                    <img src="../images/headerimages/蒙版组 441@2x.png" width="20px" height="20px" alt="">
+                    <a href="http://127.0.0.1:5500/html/privatePool.html" class="tuan">私域流量池</a></li>
+                <li>
+                    <img src="/images/headerimages/蒙版组 462@2x.png" width="20px" height="20px" alt="">
+                    <a href="#" class="tuan">客户画像</a></li>
+                <li>
+                    <img src="/images/headerimages/蒙版组 463@2x.png" width="20px" height="20px" alt="">
+                    <a href="#" class="tuan">数据分析</a></li>
+                <li>
+                    <img src="/images/headerimages/蒙版组 444@2x.png" width="20px" height="20px" alt="">
+                    <a href="#" class="tuan">生命周期管理</a></li>
+                <li>
+                    <img src="/images/headerimages/蒙版组 441@2x.png" width="20px" height="20px" alt="">
+                    <a href="http://127.0.0.1:5500/html/highLevel.html" class="tuan">私有化与定制</a></li>
+                <li>
+                        <a href="#s" class="teshu">行业解决方案</a></li>
+                <li>
+                        <img src="/images/headerimages/蒙版组 448@2x.png" width="20px" height="20px" alt="">
+                         <a href="#" class="tuan">康养解决方案</a></li>
+    
+                <li>
+                        <img src="/images/headerimages/蒙版组 465@2x.png" width="20px" height="20px" alt="">
+                        <a href="#" class="tuan">新零售解决方案</a>
+                </li>
+            </ul>
+        </div>
+  
+
+    
+        
+    </div>
+    
+
+   </div>
+   
+</body>
+<script>
+    window.addEventListener('load',function(){
+    var subnav=document.querySelector('.subnav');
+    var btn=document.querySelector('.btn2');
+    var tab_list=document.querySelector('.subnavleft');
+    console.log(tab_list);
+    
+
+   var lis=tab_list.querySelectorAll('li');
+   console.log(lis);
+    var index=document.querySelector('.index');
+    var mine=document.querySelector('.mine');
+    var produce=document.querySelector('.product');
+    var deal=document.querySelector('.deal');
+    var box1=document.querySelector('.box1')
+    var box2=document.querySelector('.box2')
+    var flag=0;
+    btn.addEventListener('click',function(){
+        if(flag==0){s
+             subnav.style.display='block'; 
+             subnav.style.display='flex'; 
+            flag=1;
+            for(var i=0;i<lis.length;i++){
+                    lis[i].onclick=function(){
+                        for(var i=0;i<lis.length;i++){
+                            lis[i].className='';
+                        }
+                         this.className='current';
+           }}
+                            index.addEventListener('click',function(){
+                                box1.style.display='none';
+                                box2.style.display='none';
+                            
+                            })
+                            produce.addEventListener('click',function(){
+                                        box1.style.display='block';
+                                        box2.style.display='none';
+                                      
+                                    
+                                    });
+                            deal.addEventListener('click',function(){          
+                                        box2.style.display='block';
+                                        box1.style.display='none';
+                                     
+                            });
+                            mine.addEventListener('click',function(){
+                                box1.style.display='none';
+                                box2.style.display='none';
+                               
+                    });
+                
+            
+        }else{
+            subnav.style.display='none'; 
+            flag=0;
+            }
+    })
+
+})
+
+
+</script>
+</html>

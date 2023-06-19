@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+		<style>
+			.container{
+			            text-align: center;
+			            margin: 50px auto;
+			            width: 600px;
+			            height: 400px;
+			            background-color: rgb(201, 208, 247);
+			            box-sizing: border-box;
+			            padding-top: 20px;
+			        }
+			        .container input{
+			            width: 400px;
+			            height: 30px;
+			            border: none;
+			            list-style: none;
+			        }
+			        .container .btn{
+			            width: 404px;
+			            height: 35px;
+			            margin-top: 10px;
+			            border: none;
+			            background-color: deepskyblue;
+			            color: white;
+			            border-radius: 5px;
+			            cursor: pointer;
+			        }
+			        .container .text{
+			            margin-top: 10px;
+			            height: 20px;
+			            width: 400px;
+			            font-size: 12px;
+			            color: tomato;
+			        }
+		</style>
+		<script src="../js/register.js"></script>
+	</head>
+	<body>
+		<div class="container">
+		        <h2>注册界面</h2>
+		        <input type="text" name="registerId" placeholder="设置账号">
+		        <div class="text registerIdText"></div>
+		        <input type="password" name="registerPassword" placeholder="设置密码">
+		        <div class="text registerPasswordText" ></div>
+		        <input class="btn" type="submit" value="注册">
+		        <input class="btn toLoginBtn" type="button" value="返回登录">
+		</div>
+			
+	</body>
+</html>

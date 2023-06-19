@@ -1,0 +1,358 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    margin: 0 auto;
+
+}
+img{
+    display:block;
+}
+span{
+    display:block;
+}
+li{
+    list-style:none;
+}
+.contanier{
+    width: 375px;
+    height: 3296px;
+    /* margin:0 auto; */
+}
+.header{
+   width: 375px;
+    height: 550px;
+    background:url(../images/私域流量池imgaes/组\ 560@2x.png) no-repeat;
+    background-size: 100%;
+}
+.logo{
+    width: 100%;
+    height: 58px;
+    display:flex;
+}
+.logo span{
+    display:block;
+    flex:1;
+}
+.logo span img{
+    width: 100%;
+    height: 100%;
+}
+.glyphicon{
+    top:22px;
+    border:0px solid transparent;
+    background-color:rgba(255,255,255,0);
+    color:#fff;
+    opacity:1;
+    width: 16px;
+    height: 14px;
+    margin-top:22px;
+    margin-left:15px;
+}
+
+.xitong_nav_box{
+    width: 100%;
+    height: 85px;
+    margin-top:44px;
+    display:flex;
+}
+.title{
+    width: 271px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    color:#151a28;
+    opacity:1;
+    text-align:center;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+    z-index:1;
+    margin-left:-45px;
+    margin-right:-46px;
+}
+.smalltitle{
+    width: 286px;
+    height: 41px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#393939;
+    opacity:1;
+    text-align:center;
+    margin:0 auto;
+    margin-top:16px;
+}
+.xitong-icon{
+    width: 100%;
+    height: 228px;
+}
+.xitong-icon img{
+    display:block;
+    width: 340px;
+    height: 100%;
+    margin:0 auto;
+    margin-top:11px;
+}
+.xitong_search{
+    width: 84px;
+    height: 20px;
+    margin:0 auto;
+    margin-top:6px;
+    font-weight: 400;
+    line-height: 0px;
+    color:#999999;
+    opacity:1;
+}
+.body_nav1{
+    width: 100%;
+    background-color: #ffffff;
+}
+.body_top1{
+    margin-top:37px;
+}
+.body_top2{
+    margin-top:35px;
+}
+.body_top3{
+    margin-top:54px;
+}
+.body_nav1_icon{
+    margin:0 auto;
+}
+.icon0{
+    width: 261px;
+    height: 266px;
+    background:url(../images/dataAnalysisimgaes/组\ 3661@2x.png) no-repeat;
+    background-size:100%;
+}
+.icon1{
+    width: 308px;
+    height: 505px;
+    background:url(../images/dataAnalysisimgaes/组\ 3869@2x.png) no-repeat;
+    background-size:100%;
+}
+.icon2{
+    width: 308px;
+    height: 236px;
+    background:url(../images/dataAnalysisimgaes/组\ 3599@2x.png) no-repeat;
+    background-size:100%;
+}
+.icon3{
+    width: 308px;
+    height: 236px;
+    background:url(../images/dataAnalysisimgaes/组\ 3600@2x.png) no-repeat;
+    background-size:100%;
+}
+.leftnav_icon{
+    width: 61px;
+    height: 125px;
+    margin-top:-62px;
+    margin-left:0px;
+    background:url(../images/私域流量池imgaes/组\ 3876@2x.png) no-repeat;
+    background-size:100%;
+}
+.right_icon{
+    margin-left:314px;
+    background:url(../images/私域流量池imgaes/组\ 541@2x.png) no-repeat;
+    background-size:100%;
+    margin-left:332px;
+}
+.myp{
+    height: 86px;
+    margin:0 auto;
+    margin-top:37px;
+    text-align:center;
+}
+.box1{
+    width: 313px;
+    height:92px;
+    margin:0 auto;
+    color:#1a1a33;
+    opacity:1;
+    font-family: PingFang SC;
+    margin-top:-80px;
+}
+.box1_txt1{
+    font-size: 18px;
+    font-weight: 500;
+    text-align:center
+}
+.box1_nav{
+    width: 321px;
+    height: 56px;
+    margin:0 auto;
+    margin-top:11px
+}
+.box1_nav::before{
+    width: 16px;
+    height: 16px;
+    background:url(../images/私域流量池imgaes/蒙版组\ 204.png);
+    background-size:100%;
+    content:'';
+    position:absolute; 
+}
+.box1_nav_txt1{
+    width: 297px;
+    height: 56px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left:19px;
+}
+.information{
+    width: 100%;
+    height: 133px;
+    background:url(../images/私域流量池imgaes/组\ 3891@2x.png);
+    background-size:100%;
+    margin-top:64px;
+}
+.local1{
+    width: 100%;
+    height: 507px;
+    background-color: #0c1a28;
+    opacity:1;
+    border-radius:0px;
+    overflow-y:hidden;
+}
+.local_nav{
+    width: 337px;
+    height: 253px;
+    margin:0 auto;
+    margin-top:27px;
+    border-bottom:1px solid #36404b;
+    display:flex;
+}
+.local_nav ul{
+    flex:1;
+  
+}
+.local_navright{
+    flex:1;
+}
+.local_navleft li{
+    height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 苹方-简;
+    margin-top:16px;
+    color:#ffffff;
+    opacity:0.83;
+}
+.local_navleft li:nth-child(1){
+    margin-top:0px;
+    font-size: 14px;
+    opacity:1;
+    color:#ffffff;
+}
+.local_navleft li:nth-child(5){
+    font-size: 14px;
+    opacity:1;
+    color:#ffffff;
+}
+.local_navright{
+   
+    margin-left:80px;
+}
+.local_navright li:nth-child(5){
+    font-size: 12px;
+    opacity:0.83;
+    color:#ffffff;
+}
+.local2{
+    width: 337px;
+    height: 92px;
+    margin:0 auto;
+    border-bottom:1px solid #36404b;
+    display:flex;
+}
+.local2 p{
+    font-size: 12px;
+    font-weight: 400;
+    opacity:0.83;
+    color:#ffffff;
+    flex:1;
+}
+.local2txt2{
+    margin-top:36px;
+    text-align:center;
+}
+.local2txt1{
+   margin-top:18px;
+}
+.local3{
+    width: 337px;
+    border-bottom:1px solid #36404b;
+    display:flex;
+    height: 78px;
+    color:#ffffff;
+}
+.local3 div{
+    text-align:left;
+    margin-top:14px;
+    margin-left:0px;
+}
+.local3_sp2{
+    margin-top:8px;
+}
+.local3_sp1{
+    opacity: 1;
+    font-size: 14px;
+    color:#ffffff;
+}
+.local3_sp2{
+    margin-top:8px;
+    opacity: 0.6;
+    color:#ffffff;
+    font-size: 12px;
+}
+.lastnav{
+    width: 334px;
+    height: 28px;
+    text-align:center;
+    font-weight: 400;
+    color:#ffffff;
+    font-size:10px ;
+    opacity:0.6;
+    font-family: 苹方-简;
+}
+.logotxt1{
+    width: 216px;
+    height: 98px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    color:#ffffff;
+    opacity:1;
+    font-family: PingFang SC;
+    margin:0 auto;
+    margin-top:53px;
+    text-align:center;
+}
+.logotxt2{
+    margin:0 auto;
+    margin-top:10px;
+    width: 192px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#ffffff;
+    text-shadow:0px 3px 6px rgba(0,0,0,0.1600);
+    opacity:1;
+    text-align:center;
+}
+.btn{
+    width: 134px;
+    height: 40px;
+    background:#ffffff;
+    text-shadow:0px 3px 6px rgba(0,0,0,0.1600);
+    opacity:1;
+    border-radius:4px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-left:121px;
+    color:#5353c4;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top:35px;
+}

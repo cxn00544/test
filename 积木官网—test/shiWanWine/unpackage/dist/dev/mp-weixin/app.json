@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pointsMall/pointsMall",
+    "pages/tescoMall/tescoMall",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#275B5D",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/icons/home.png",
+        "selectedIconPath": "./static/icons/home_check.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/pointsMall/pointsMall",
+        "iconPath": "./static/icons/integral.png",
+        "selectedIconPath": "./static/icons/integral_check.png",
+        "text": "积分商城"
+      },
+      {
+        "pagePath": "pages/tescoMall/tescoMall",
+        "iconPath": "./static/icons/Tesco.png",
+        "selectedIconPath": "./static/icons/Tesco_check.png",
+        "text": "乐购商城"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/icons/my.png",
+        "selectedIconPath": "./static/icons/my_check.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

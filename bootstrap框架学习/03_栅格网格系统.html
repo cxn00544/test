@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href= "./boostrap/css/bootstrap.min.css">
+		<script src="./js/jquery-3.6.0.js"></script>
+		<script src="./boostrap/js/bootstrap.min.js"></script>
+		<style>
+			div{
+				height: 50px;
+			}
+		</style>
+	</head>
+	<body> 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4" style="background-color: pink;">4</div>
+				<div class="col-md-8" style="background-color: aqua;">8</div>
+			</div>
+			<hr>
+			<!-- 行组合 -->
+			
+			<div class="row">
+				<div class="col-md-1" style="background-color: aqua;"></div>
+				<!-- 列偏移 -->
+				<!-- 空格隔开一个，但是总数不能超过12格 -->
+				<div class="col-md-1 col-md-offset-1"></div>
+				<div class="col-md-1" style="background-color: blue;"></div>
+				
+				
+			</div>
+			<!-- 列排序 -->
+			<div class="row2">
+				<!-- 后面的代码会把前面的覆盖掉 -->
+				<div class="col-md-1 col-md-push-1" style="background-color: blue;"></div>
+				<div class="col-md-1 col-md-push-3" style="background-color: yellow;"></div>
+				<div class="col-md-1 col-md-pull-1" style="background-color: red;"></div>
+				<div class="col-md-1" style="background-color: green;"></div>
+			</div>
+			<!-- 列嵌套 -->
+			<div class="row2">
+				<!-- 后面的代码会把前面的覆盖掉 -->
+				<div class="col-md-6" style="background-color: red;">
+					<!-- 底下还会把其分为12份 -->
+					<!-- 大的屏幕一次占三格，小的屏幕一次占6格 -->
+					<div class="col-md-3 col-sm-6" style="background-color: burlywood;"></div>
+					<div class="col-md-3 col-sm-6" style="background-color: pink;"></div>
+					<div class="col-md-3 col-sm-6" style="background-color: paleturquoise;"></div>
+					<div class="col-md-3 col-sm-6" style="background-color: green;"></div>
+					
+				</div>
+				<div class="col-md-6" style="background-color: yellow;"></div>
+				
+			</div>
+		</div>
+	</body>
+</html>

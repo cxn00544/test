@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "会员中心",
+  "navigationBarBackgroundColor": "#387375",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-line-progress": "/uni_modules/uview-ui/components/u-line-progress/u-line-progress"
+  }
+}

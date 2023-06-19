@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+
+
+}
+.w{
+    background-color: #f6f7fa;
+}
+.first_nav{
+    width: 375px;
+    background:#ffffff;
+    /* margin:0 auto; */
+    overflow:hidden;
+}
+.headertxt{
+    width: 660px;
+    height: 50px;
+    font-size: 36px;
+    font-weight: 500;
+    color:#333333;
+    line-height: 50px;
+    margin:0 auto;
+    margin-top:55px;
+    font-family: PingFangSC-Medium, PingFang SC;
+}
+.swiper-slide img{
+   width: 375px;
+    height:550px;
+}
+.swiper{
+    position:relative;
+    width: 100%;
+    margin-top:38px;
+    
+}
+.saleBtn{
+    position:fixed;
+    width: 34px;
+    height: 34px;
+    z-index:99;
+    top:50%;
+    transform:translateY(-50%);
+    right:2px;
+
+}
+.saleBtn img{
+    width: 100%;
+    height: 100%;
+}
+.hideMenu{
+    position:fixed;
+    width: 266px;
+    height: 120px;
+    top:45%;
+    left:40px;
+    background:rgba(255,255,255,1);
+    display:none;
+
+    z-index:100;
+    box-shadow:0px 0px 0px 0px(0 0 0 /10%);
+    transform: scale(0.8);
+}
+.triangle{
+    position:fixed;
+    width: 0;
+    height: 0;
+    border-width: 40px;
+    border-style:solid;
+    right:67px;
+    bottom:262px;
+    z-index:99;
+    transform:rotate(30deg);
+    border-color: rgba(255,255,255,1) transparent transparent transparent;
+    display:none;
+}
+.solve{
+    width: 100%;
+    background-color: f6f7fa;
+    padding:0 30px;
+    overflow-y:hidden;
+}
+.solve >.h3{
+    margin-top:30px;
+    text-align:center;
+    font-size: 18px;
+    color:#000;
+}
+.ul1{
+    width: 100%;
+    display:grid;
+    grid-template-columns:repeat(3,30%);
+    grid-row-gap:20px;
+    justify-content:space-between;
+    color:#000;
+    margin-top:20px;
+}
+.ul1 li{
+    text-align:center;
+}
+li{
+    list-style:none;
+}
+.ul2{
+    width: 100%;
+    margin-top:70px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    display:none;
+}
+.ul2 li{
+    width: 30%;
+    text-align:center;
+    align-items:center;
+    margin-right:4px;
+    
+}
+.imgBox{
+    width: 100%;
+    height: 100px;
+    /* margin:0 auto; */
+background-color: #fff;
+padding:20px 0px;
+}
+.imgBox img{
+    width: 60px;
+    height: 60px;
+    margin:0 auto;
+}
+.ul2 li p{
+    margin-top:30px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#333333;
+}
+.current{
+   background-color: blue;
+
+}

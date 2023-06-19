@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/college.css">
+</head>
+<body>
+    <div class="paging">
+        <a href=""上一页></a>
+        <a href="">1</a>
+        <p class="pageEllipsis">...</p>
+        <a href="">19</a>
+        <a href=""class="three">20</a>
+        <a href="">下一页</a>
+    </div>
+    <script>
+       
+        window.addEventListener('load',function(){
+            var ps=document.querySelector('p');
+            var as=document.querySelector('a');
+            for(var i = 0;i < 20 ;i++){
+                as[i].addEventListener('click',function(){
+                    this.history.go(-1);
+                })
+            }
+        })
+    
+    </script>
+</body>
+</html>

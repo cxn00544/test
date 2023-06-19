@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头部文件</title>
+    <script src="../swiper/swiper-bundle.min.js"></script>
+    <script src="../jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="../css/header2.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="daohang">
+            <span>
+                <button class="glyphicon glyphicon-menu-hamburger"></button>
+            </span>
+            <!-- <span>
+                <img src="../images/images_product/logo@2x.png" alt="">
+            </span> -->
+            <span></span>
+        </div>
+  
+        <ul class="boxnav"> 
+            <ul class="leftnav">
+                <li>
+                    <i></i>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="#">产品</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="#">解决方案</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="#">关于我们</a>
+                </li>
+            </ul>
+                <div class="rightnav">
+                    <ul class="rightnav_one">
+                        <li><a href="#">数字化客户经营</a></li>
+                        <li><a href="#">私域互动经营</a></li>
+                        <li><a href="#">数据中台</a></li>
+                    </ul>
+                    <ul class="rightnav_two">
+                      <li><a href="">场景解决方案</a></li>
+                      <li><a href="">营销自动化</a></li>
+                      <li><a href="">私域流量池</a></li>
+                      <li><a href="">客户画像</a></li>
+                      <li><a href="">数据分析</a></li>
+                      <li><a href="">生命周期管理</a></li>
+                      <li><a href="">私有化与定制</a></li>
+                      <li><a href="">行业解决方案</a></li>
+                      <li><a href="">康养解决方案</a></li>
+                      <li><a href="">新零售解决方案</a></li>
+                    
+                    </ul>
+                    
+                </div>
+        </div>
+    </div>
+</body>
+<script>
+    window.addEventListener('load',function(){
+    var logobtn=document.querySelector('.glyphicon');
+    var boxnav=this.document.querySelector('.boxnav');
+    var flag=0;
+    logobtn.onclick=function(){
+    if(flag==0){
+    boxnav.style.display='block';
+    flag=1;
+    }
+    else{
+    boxnav.style.display='none';
+    flag=0;
+    }
+
+    }
+    })
+</script>
+</html>

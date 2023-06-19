@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单布局</title>
+		<link rel="stylesheet" href= "./boostrap/css/bootstrap.min.css">
+		<script src="./js/jquery-3.6.0.js"></script>
+		<script src="./boostrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- 水平表单 -->
+		<form class="form-horizontal" role="form" action="#">
+			<div class="form-group">
+				<label for="uname" class="control-label col-md-2">姓名</label>
+				<div class="col-md-8">
+					<input type="text" id="uname" class="form-control" placeholder="请输入姓名">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="uname" class="control-label col-md-2">爱好</label>
+				<div class="col-md-8">
+					<label class="checkbox-inline">
+						<input type="checkbox" name="hobby">
+						唱歌
+					</label>
+					<!-- label自动聚焦与之绑定的框框 -->
+					<label class="checkbox-inline">
+						<input type="checkbox" name="hobby">
+						跳舞
+					</label>
+				</div>
+			</div>
+			<div class="form-group">
+				
+				<div class="col-md-2 col-md-offset-9">
+					<button class="btn btn-primary">提交</button>
+				</div>
+			</div>
+		</form>
+		<!-- 内连表单 -->
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="username">姓名</label>
+				<input type="text" id="username"placeholder="请输入姓名"  class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="pwd">密码</label>
+				<input type="text" id="pwd" placeholder="请输入密码" class="form-control">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-primary">提交</button>
+			</div>
+		</form>
+		<div class="row">
+			<div class="col-md-12">
+				<select multiple="multiple">
+					<option>北京</option>
+					<option>珠海</option>
+					<option>黑龙江</option>
+					<option>江苏</option>
+				</select>
+			</div>
+		</div>
+	</body>
+</html>

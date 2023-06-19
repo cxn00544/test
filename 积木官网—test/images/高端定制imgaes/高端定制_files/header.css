@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none
+}
+.header{
+    width: 375px; 
+    background-color: #000;
+    position:absolute;
+    top:0px;
+    z-index:10000;
+} 
+li{
+    list-style:none;
+}
+.daohang{
+    width: 100%;
+    height: 58px;
+    display:flex;
+}
+.daohang span{
+    flex:1;
+    display: block;
+
+}
+.logo2 img{
+   width: 100%;
+   height: 100%; 
+} 
+.btn2 p{
+    width: 40px;
+    height: 30px;
+    border:1px solid #cfcfcf;
+    text-align:center;
+    margin-left:68px;
+    margin-top:16px;
+    color:#808080;
+    font-size: 24px;
+}
+.subnav{
+    width: 100%;
+    background-color:#333333;
+    color:#ffffff;
+    font-size: 14px;
+    font-family: 苹方-简;
+    border-top:1px solid  #cfcfcf;
+    display:flex;
+    display:none;
+    
+}
+
+.subnavleft{
+    width: 30%;
+    display:flex;
+    flex-direction:column;
+    border-right:1px solid #cfcfcf;
+}
+
+.subnavleft li i{
+    vertical-align: baseline;
+    width: 4px;
+    height: 14px;
+    background-color: #ffffff;
+    font:inherit;
+    display:inline-block;
+    border-radius:4px;
+    margin-right:10px;
+    display:none;
+}
+.subnavleft li:nth-child(1){
+    border-bottom:1px solid #cfcfcf;
+}
+.rightcontainer{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    padding-left:30px;
+    /* display:none;  */
+}
+.rightcontainer li img{
+    width: 20px;
+    height: 20px;
+    margin-top:13px;
+    
+}
+.rightcontainer li{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    color:#000;
+    opacity:0.8;
+    padding-top:10px;
+}
+.rightcontainer li a{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 48px;
+    color:#ffffff;
+    font-weight: 800;
+    opacity:1;
+    font-family: PingFang SC;
+    text-decoration:none;
+    position:absolute;
+    left:170px;
+}
+ .box .rightcontainer .teshu{
+    font-size: 16px;
+    font-family:PingFang SC;
+    color:#ffffff;
+}
+.means{
+    display:none;
+}
+.glyphicon{
+    top:22px;
+    border:0px solid transparent;
+    background-color:rgba(255,255,255,0);
+    color:#fff;
+    opacity:1;
+    width: 16px;
+    height: 14px;
+    margin-top:22px;
+    margin-left:15px;
+}
+.subnavleft li{
+    position:relative;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color:#000;
+    opacity:0.8;
+    padding-left:30px;
+    padding-top:10px;
+}
+.subnavleft a{
+    font-size: 14px;
+    font-family: 苹方-简;
+    color:#ffffff;
+}
+.rightcontaine img{
+    width: 20px;
+    height: 20px;
+    display:block;
+    background:url(../images/headerimages/蒙版组\ 306@2x.png);
+    background-size: 100%;
+}
+.current{
+    background-color:blue;   
+}
+.current .bg{
+    color:#fff;
+    text-decoration: none;
+}
+.current .teshu{
+    color:#fff;
+    text-decoration: none;
+}
+.current .is{
+    display:block;
+    width: 4px;
+    height: 14px;
+    background-color: #ffffff;
+    font:inherit;
+    display:inline-block;
+    border-radius:4px;
+}
+ .current .rightcontainer{
+    display:block;
+}
+.box{
+    width: 70%;
+
+}
+.rightcontainer{
+    display:none;
+}
+.box1{
+    display:none;
+}
+.box2{
+    display:none;
+}
+.rightnav_two{
+    display:none;
+}
+.rightnav{
+    
+}

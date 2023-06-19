@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href= "./boostrap/css/bootstrap.min.css">
+		<script src="./js/jquery-3.6.0.js"></script>
+		<script src="./boostrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- 去点列表 -->
+		<ul class="list-unstyled">
+			<li>1</li>
+			<li>2</li>
+		</ul>
+		<!--  内联列表 -->
+		<ul class="list-inline">
+			<li>1</li>
+			<li>2</li>
+		</ul>
+		<!-- 自定义列表的内联 -->
+		<dl class="dl-horizontal">
+			<dt>HTML</dt>
+			<dd>超文本语言</dd>
+			<dt>HTML</dt>
+			<dd>超文本语言vbusfhvdddddddddddddddddddd</dd>
+		</dl>
+		<!-- 代码的样式 -->
+		<code>唱歌 我闭着眼睛唱歌</code>
+		<code>
+			我想我很快乐
+			发现有人听着
+		</code>
+		<p>使用<kbd>ctrl</kbd>+<kbd>s</kbd><kdb</p>
+		<pre>
+			var isFunction = function isFunction( obj ) {
+			
+					// Support: Chrome <=57, Firefox <=52
+					// In some browsers, typeof returns "function" for HTML <object> elements
+					// (i.e., `typeof document.createElement( "object" ) === "function"`).
+					// We don't want to classify *any* DOM node as a function.
+					// Support: QtWeb <=3.8.5, WebKit <=534.34, wkhtmltopdf tool <=0.12.5
+					// Plus for old WebKit, typeof returns "function" for HTML collections
+					// (e.g., `typeof document.getElementsByTagName("div") === "function"`). (gh-4756)
+					return typeof obj === "function" && typeof obj.nodeType !== "number" &&
+						typeof obj.item !== "function";
+				};
+		</pre>
+		<pre>
+			<!-- 要想显示标签就得使用特殊的符号 -->
+				&lt;h2&gt;你好&lt;/h2&gt;</h2>
+		</pre>
+		<!-- 滚动条效果 -->
+		<pre class="pre-scrollable">
+			<li>...................</li>
+					<li>...................</li>
+					<li>...................</li>
+					<li>...................</li>
+					<li>...................</li>
+					<li>...................</li>
+					<li>...................</li>
+									
+		</pre>
+	</body>
+</html>
